@@ -26,6 +26,10 @@ dialog {
   margin-bottom: 1.5em;
 }
 
+main > article > section > ol {
+  margin-left: 25px;
+}
+
 body > header {
   background-color: #2f5d3a;
   color: white;
