@@ -121,6 +121,7 @@ img {
 figcaption {
   font-size: 1em;
   color: #555;
+  padding-left: 20%;
 }
 
 details {
