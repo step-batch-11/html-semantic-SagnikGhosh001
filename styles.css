@@ -1,4 +1,4 @@
-*{
+* {
   padding: 0px;
   margin: 0px;
 }
@@ -25,11 +25,11 @@ dialog {
   margin-bottom: 1.5em;
 }
 
-main > article > section > ol {
+main>article>section>ol {
   margin-left: 25px;
 }
 
-body > header {
+body>header {
   position: sticky;
   top: -1px;
   display: flex;
@@ -42,27 +42,29 @@ body > header {
   line-height: 3em;
 }
 
-body > header > hgroup, body > header > nav{
+body>header>hgroup,
+body>header>nav {
   padding-left: 1em;
 }
 
-body > header > hgroup > h1 {
+body>header>hgroup>h1 {
   font-weight: 300;
   font-size: 2.5em;
+  font-family: serif;
 }
 
-body > header > hgroup > h2 {
+body>header>hgroup>h2 {
   font-weight: 200;
   font-size: 1.5em;
 }
 
-header > nav > ul {
+header>nav>ul {
   display: flex;
   gap: 3em;
 }
 
-nav > ul {
- list-style: none;
+nav>ul {
+  list-style: none;
 }
 
 nav a {
@@ -82,7 +84,7 @@ main {
   justify-content: space-between;
 }
 
-article > header {
+article>header {
   border-bottom: 2px solid #ccc;
   padding-bottom: 2em;
 }
@@ -118,7 +120,7 @@ figcaption {
 
 details {
   background-color: #e8f5e9;
-  padding: 1rem;
+  padding: 1.2em;
   border-left: 4px solid #2f5d3a;
 }
 
@@ -129,24 +131,24 @@ summary {
 
 aside {
   background-color: #eef3ee;
-  padding: 1rem;
+  padding: 1.3em;
   border: 1px solid #ccc;
 }
 
-aside > h3 {
+aside>h3 {
   border-bottom: 2px solid #ccc;
   padding-bottom: 1em;
 }
 
-aside > nav > ul > li{
+aside>nav>ul>li {
   padding-top: 1em;
 }
 
-aside > nav > ul > li >a {
+aside>nav>ul>li>a {
   color: #ff3f3f;
 }
 
-body > footer {
+body>footer {
   width: 100%;
   background-color: #2f5d3a;
   color: white;
@@ -162,6 +164,6 @@ dialog {
   padding: 1em;
   border: none;
   background-color: #ffffff;
-  box-shadow: 0 4px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
   margin: 0 auto;
 }
