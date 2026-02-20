@@ -32,13 +32,14 @@ body>header {
   position: sticky;
   top: -1px;
   display: flex;
-  background-color: #2f5d3a;
   color: white;
   width: 100vw;
   padding: 2em 0em;
   align-items: end;
   justify-content: space-around;
   line-height: 3em;
+  background-image: url("farming.jpg");
+  background-size: cover;
 }
 
 body>header>hgroup,
@@ -47,13 +48,13 @@ body>header>nav {
 }
 
 body>header>hgroup>h1 {
-  font-weight: 300;
+  font-weight: 500;
   font-size: 2.5em;
   letter-spacing: 1px;
 }
 
 body>header>hgroup>h2 {
-  font-weight: 200;
+  font-weight: 300;
   font-size: 1.5em;
 }
 
@@ -70,7 +71,8 @@ nav>ul {
 nav a {
   color: white;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
+  letter-spacing: 1px;
 }
 
 nav a:hover {
