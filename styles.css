@@ -90,6 +90,10 @@ article>header {
   padding-bottom: 2em;
 }
 
+article>header>h2 {
+  margin-bottom: 7px;
+}
+
 section {
   padding-bottom: 2em;
   border-bottom: 1px solid #ddd;
@@ -164,9 +168,16 @@ address {
 }
 
 dialog {
+  display: none;
   padding: 1em;
   border: none;
   background-color: #ffffff;
   box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  margin: 0 auto;
+  margin: -10% auto;
+  width: 300px;
+  border-radius: 10px;
+}
+
+body>footer:hover dialog {
+  display: block;
 }
