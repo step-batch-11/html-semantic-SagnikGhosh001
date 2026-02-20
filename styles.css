@@ -31,25 +31,27 @@ main > article > section > ol {
 }
 
 body > header {
+  display: flex;
   background-color: #2f5d3a;
   color: white;
   width: 100vw;
   padding: 2em 0em;
+  align-items: center;
+  justify-content: space-around;
+  line-height: 3em;
 }
 
 body > header > hgroup, body > header > nav{
-  line-height: 2em;
   padding-left: 1em;
 }
 
-body > header > hgroup{
-  padding-bottom: 2em;
+header > nav > ul {
+  display: flex;
+  gap: 3em;
 }
 
-nav ul {
-  list-style: none;
-  display: flex;
-  gap: 1em;
+nav > ul {
+ list-style: none;
 }
 
 nav a {
@@ -63,8 +65,10 @@ nav a:hover {
 }
 
 main {
-  max-width: 50%;
+  width: 70%;
   padding: 0 1em;
+  display: flex;
+  justify-content: space-between;
 }
 
 article > header {
@@ -112,6 +116,15 @@ aside {
   background-color: #eef3ee;
   padding: 1rem;
   border: 1px solid #ccc;
+}
+
+aside > h3 {
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 1em;
+}
+
+aside > nav > ul > li{
+  padding-top: 1em;
 }
 
 aside > nav > ul > li >a {
